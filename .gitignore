@@ -28,14 +28,14 @@
 /build/
 
 # Android related
+**/android/**/GeneratedPluginRegistrant.java
+**/android/**/google-services.json
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
 **/android/captures/
 **/android/gradlew
 **/android/gradlew.bat
 **/android/local.properties
-**/android/**/GeneratedPluginRegistrant.java
-**/android/**/google-services.json
 
 # iOS/XCode related
 **/ios/**/*.mode1v3
@@ -45,12 +45,12 @@
 **/ios/**/*.perspectivev3
 **/ios/**/*sync/
 **/ios/**/.sconsign.dblite
+**/ios/**/.symlinks/
 **/ios/**/.tags*
 **/ios/**/.vagrant/
 **/ios/**/DerivedData/
 **/ios/**/Icon?
 **/ios/**/Pods/
-**/ios/**/.symlinks/
 **/ios/**/profile
 **/ios/**/xcuserdata
 **/ios/.generated/
@@ -60,9 +60,9 @@
 **/ios/Flutter/app.flx
 **/ios/Flutter/app.zip
 **/ios/Flutter/flutter_assets/
-**/ios/ServiceDefinitions.json
-**/ios/Runner/GeneratedPluginRegistrant.*
 **/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/ServiceDefinitions.json
 
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
