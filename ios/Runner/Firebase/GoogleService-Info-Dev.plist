@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>604716147825-hkr5af8j5doh3uj3qmcptceu42o7dv0f.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.604716147825-hkr5af8j5doh3uj3qmcptceu42o7dv0f</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDFTDIQQmuuHmHsB4i5Sb_K31-aqCGxcts</string>
+	<key>GCM_SENDER_ID</key>
+	<string>604716147825</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>de.janoodle.circlesApp.debug</string>
+	<key>PROJECT_ID</key>
+	<string>timy-messenger-1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>timy-messenger-1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:604716147825:ios:a3539916caa209fa94e7d0</string>
+	<key>DATABASE_URL</key>
+	<string>https://timy-messenger-1.firebaseio.com</string>
+</dict>
+</plist>
