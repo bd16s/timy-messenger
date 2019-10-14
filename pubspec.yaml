@@ -129,6 +129,9 @@ flutter:
     - assets/graphics/upload/indicator_0_try_again.png
     - assets/graphics/upload/selected.png
     - assets/graphics/calendar/calendar_today.png
+    # from other projects
+    - assets/design_course/
+    - assets/fitness_app/
 
   fonts:
     - family: Edmondsans-Regular

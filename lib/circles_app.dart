@@ -41,6 +41,9 @@ import "package:redux/redux.dart";
 import "package:firebase_messaging/firebase_messaging.dart";
 import "domain/redux/user/user_actions.dart";
 
+import "package:circles_app/designCourse/homeDesignCourse.dart";
+import "package:circles_app/fitnessApp/fitnessAppHomeScreen.dart";
+
 class CirclesApp extends StatefulWidget {
   const CirclesApp({
     Key key,
@@ -147,7 +150,9 @@ class _CirclesAppState extends State<CirclesApp> {
           Routes.home: (context) {
             // We need a context and a user. Both are present when loading MainScreen.
             _updateUserLocale(context);
-            return MainScreen();
+            // return MainScreen();
+            // return DesignCourseHomeScreen();
+            return FitnessAppHomeScreen();
           },
           Routes.channelNew: (context) {
             return CreateChannelScreen();
