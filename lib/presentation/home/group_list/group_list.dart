@@ -63,7 +63,8 @@ class _GroupListState extends State<GroupList> {
             _Style.defaultPadding,
             _GroupSettingsButton(
                 Image.asset("assets/graphics/drawer/create_topic.png"), () {
-              showSoonAlert(context: context);
+              Navigator.pushNamed(context, Routes.fitnessApp);
+              // showSoonAlert(context: context);
             }),
           ],
         ));

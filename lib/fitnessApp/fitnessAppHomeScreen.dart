@@ -5,6 +5,8 @@ import "bottomNavigationView/bottomBarView.dart";
 import "fintnessAppTheme.dart";
 import "myDiary/myDiaryScreen.dart";
 
+import "package:circles_app/routes.dart";
+
 class FitnessAppHomeScreen extends StatefulWidget {
   @override
   _FitnessAppHomeScreenState createState() => _FitnessAppHomeScreenState();
@@ -77,7 +79,9 @@ class _FitnessAppHomeScreenState extends State<FitnessAppHomeScreen>
         ),
         BottomBarView(
           tabIconsList: tabIconsList,
-          addClick: () {},
+          addClick: () {
+            Navigator.of(context).popUntil(ModalRoute.withName(Routes.home));
+          },
           changeIndex: (index) {
             if (index == 0 || index == 2) {
               animationController.reverse().then((data) {

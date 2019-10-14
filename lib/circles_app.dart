@@ -150,9 +150,9 @@ class _CirclesAppState extends State<CirclesApp> {
           Routes.home: (context) {
             // We need a context and a user. Both are present when loading MainScreen.
             _updateUserLocale(context);
-            // return MainScreen();
+            return MainScreen();
             // return DesignCourseHomeScreen();
-            return FitnessAppHomeScreen();
+            // return FitnessAppHomeScreen();
           },
           Routes.channelNew: (context) {
             return CreateChannelScreen();
@@ -180,7 +180,11 @@ class _CirclesAppState extends State<CirclesApp> {
           },
           Routes.settings: (context) {
             return SettingsScreen();
-          }
+          },
+          // from other projects
+          Routes.fitnessApp: (context) {
+            return FitnessAppHomeScreen();
+          },
         },
       ),
     );

@@ -10,4 +10,6 @@ class Routes {
   static final reaction = "/reaction";
   static final user = "/user";
   static final settings = "/settings";
+
+  static final fitnessApp = "/fitnessApp";
 }
